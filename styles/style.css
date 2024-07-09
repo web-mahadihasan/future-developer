@@ -115,6 +115,9 @@ main{
     max-width: 1140px;
     margin: 0 auto!important;
 }
+section{
+    margin-top: 5rem;
+}
 /* Main styles  */
 
 /* Why Web development and skills styles  */
@@ -162,3 +165,64 @@ main{
     width: 60%;
 }
 /* Why Web development and skills styles  */
+
+
+/* My inspiration section styles here  */
+.myInspiration-content{
+    text-align: center;
+}
+.myInspiration-content .description-text,
+.myCurrentTarget-content .description-text
+{
+    max-width: 850px;
+    margin: 0 auto;
+    margin-bottom: 3rem;
+}
+
+.myInspiration-media{
+    padding: 2rem;
+    height: 550px;
+}
+.myInspiration-media .video{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+/* My inspiration section styles here  */
+
+/* My current target styles here  */
+.myCurrentTarget-content{
+    text-align: center;
+}
+.myCurrentTargeted-items{
+    display: flex;
+    justify-content: space-between;
+    gap: 1.5rem;
+}
+.myCurrentTargeted-items .items-card{
+    padding: 2.5rem;
+}
+.items-card .items-title{
+    color: rgb(13, 19, 33);
+    font-weight: 800;
+    font-size: 1.5rem;
+    margin-top: 1.8rem;
+    border-radius: 1rem;
+}
+.items-card .description-text{
+    font-size: .9rem;
+    margin-top: .7rem;
+}
+.myCurrentTargeted-items .card-one{
+    background-color: rgba(255, 76, 30, 0.05);
+    flex: 1;
+}
+.myCurrentTargeted-items .card-two{
+    background-color: rgba(0, 76, 232, 0.05);
+    flex: 1;
+}
+.myCurrentTargeted-items .card-three{
+    background-color: rgba(255, 223, 0, 0.05);
+    flex: 1;
+}
+/* My current target styles here  */
