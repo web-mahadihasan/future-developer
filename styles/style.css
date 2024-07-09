@@ -29,6 +29,7 @@
 }
 /* Shared CSS styles  */
 
+
 /* Nav style start  */
 header{
     width: 100%;
@@ -64,6 +65,7 @@ nav .nav-item button a{
 
 /* Nav style ends */
 
+
 /* Banner section styles start  */
 .banner-container{
     width: 100%;
@@ -74,6 +76,8 @@ nav .nav-item button a{
     align-items: center;
     flex-direction: column;
     text-align: center;
+    background-color: rgba(0, 0, 0, 0.01);
+    background-blend-mode: overlay;
 }
 .banner-container .banner-image img{
     width: 240px;
@@ -110,15 +114,17 @@ nav .nav-item button a{
 }
 /* Banner section styles ends  */
 
+
 /* Main styles  */
 main{
     max-width: 1140px;
     margin: 0 auto!important;
 }
 section{
-    margin-top: 5rem;
+    margin-top: 6rem;
 }
 /* Main styles  */
+
 
 /* Why Web development and skills styles  */
 .webDevelopment-container{
@@ -172,7 +178,8 @@ section{
     text-align: center;
 }
 .myInspiration-content .description-text,
-.myCurrentTarget-content .description-text
+.myCurrentTarget-content .description-text,
+.myNextTarget-content .description-text
 {
     max-width: 850px;
     margin: 0 auto;
@@ -190,8 +197,9 @@ section{
 }
 /* My inspiration section styles here  */
 
+
 /* My current target styles here  */
-.myCurrentTarget-content{
+.myCurrentTarget-content, .myNextTarget-content{
     text-align: center;
 }
 .myCurrentTargeted-items{
@@ -225,4 +233,48 @@ section{
     background-color: rgba(255, 223, 0, 0.05);
     flex: 1;
 }
+.myCurrentTargeted-items .items-card a,
+.myNextTargeted-items .items-card a
+{
+    font-size: 1rem;
+    font-weight: 700;
+    color: rgb(13, 19, 33);
+    margin-top: 1.5rem;
+    display: block;
+    transition: 0.3s ease-in;
+}
+.myCurrentTargeted-items .items-card a:hover,
+.myNextTargeted-items .items-card a:hover
+{
+    color: #0065f4;
+}
 /* My current target styles here  */
+
+
+/* Optional part  */
+/* My next targeted styles here  */
+.myNextTargeted-items .items-card{
+    display: flex;
+    padding: 2.5rem;
+    align-items: center;
+    gap: 1.5rem;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 1.5rem;
+}
+.myNextTargeted-items .items-img{
+    width: 250px;
+    margin-right: 4rem;
+}
+.myNextTargeted-items .items-img img{
+    width: 150%;
+}
+
+/* My next targeted styles here  */
+
+/* Support section styles here  */
+.Support-container{
+
+}
+/* Support section styles here  */
