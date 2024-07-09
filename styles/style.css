@@ -6,6 +6,9 @@
     box-sizing: border-box;
     font-family: 'Azeret Mono', monospace;
 }
+html{
+    scroll-behavior: smooth;
+}
 /* Shared CSS styles  */
 .description-text{
     font-size: 1rem;
@@ -41,7 +44,7 @@ nav{
     margin: 0 auto;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 0px;
+    padding: 1.8rem 0px;
 }
 nav .logo h3{
     font-size: 1.75rem;
@@ -50,8 +53,8 @@ nav .logo h3{
     cursor: pointer;
 }
 nav .nav-item button{
-    border-radius: 10px;
-    padding: 17px 24px;
+    border-radius: 0.625rem;
+    padding: 1rem 1.5rem;
     border: 1px solid rgba(13, 19, 33);
     cursor: pointer;
 }
@@ -99,9 +102,9 @@ nav .nav-item button a{
     margin-bottom: 2rem;
 }
 .banner-container .banner-btn button{
-    padding: 21px 24px;
-    margin-bottom: 44px;
-    border-radius: 8px;
+    padding: 1.25rem 1.5rem;
+    margin-bottom: 2.75rem;
+    border-radius: 0.50rem;
     background: rgb(13, 19, 33);
     border: none;
     outline: none;
@@ -141,7 +144,7 @@ section{
 .webDevelopment-container .my-skills{
     display: flex;
     padding: 3rem;
-    border-radius: 16px;
+    border-radius: 1rem;
     background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
     margin-bottom: 2rem;
     align-items: center;
@@ -193,7 +196,7 @@ section{
 .myInspiration-media .video{
     width: 100%;
     height: 100%;
-    border-radius: 10px;
+    border-radius: 0.625rem;
 }
 /* My inspiration section styles here  */
 
@@ -209,6 +212,7 @@ section{
 }
 .myCurrentTargeted-items .items-card{
     padding: 2.5rem;
+    border-radius: 0.625rem;
 }
 .items-card .items-title{
     color: rgb(13, 19, 33);
@@ -259,7 +263,7 @@ section{
     align-items: center;
     gap: 1.5rem;
     border: 1px solid rgba(13, 19, 33, 0.15);
-    border-radius: 16px;
+    border-radius: 1rem;
     background-color: rgb(255, 255, 255);
     margin-bottom: 1.5rem;
 }
@@ -274,7 +278,79 @@ section{
 /* My next targeted styles here  */
 
 /* Support section styles here  */
-.Support-container{
+.support-container{
+    background-image: url(../assets/handshake.jpg);
+    height: 313px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.3);
+    background-blend-mode: overlay;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
 
+.support-container .feedback .feeback-massage{
+    border: none;
+    outline: none;
+    background-color: #fff;
+    width: 548px;
+    height: 57px;
+    border-radius: 10px;
+    padding: 19px;
+}
+.support-container .feedback .feedback-submit{
+    border: none;
+    outline: none;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 1rem 1.25rem;
+    font-weight: 600;
+    font-size: 1.25rem;
+    cursor: pointer;
+}
+.support-container .support-title{
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+.support-container .description-text{
+    color: #fff;
+    opacity: 0.7;
+    max-width: 850px;
+    margin: 0 auto;
+    margin-bottom: 1.5rem;
 }
 /* Support section styles here  */
+
+
+/* Footer section styles here  */
+#footer{
+    width: 100%;
+    height: 100px;
+    background-color: #f7f8f8;
+    margin-top: 5rem;
+    display: flex;
+    align-items: center;
+}
+.footer-content{
+    width: 1140px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:  0 auto;
+}
+.footer-content .footer-text p{
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: rgb(13, 19, 33);
+}
+.footer-content .social-items a{
+    margin-left: 1.5rem;
+}
+/* Footer section styles here  */
