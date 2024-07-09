@@ -8,11 +8,24 @@
 }
 /* Shared CSS styles  */
 .description-text{
-    color: rgb(13, 19, 33);
     font-size: 1rem;
     font-weight: 400;
+    color: rgb(13, 19, 33);
     line-height: 1.625rem;
     opacity: 0.8;
+}
+.section-title{
+    font-weight: 800;
+    color: rgb(13, 19, 33);
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+}
+.section-sub-title{
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    line-height: 2.125rem;
 }
 /* Shared CSS styles  */
 
@@ -30,23 +43,23 @@ nav{
     padding: 30px 0px;
 }
 nav .logo h3{
-    color: rgb(13, 19, 33);
     font-size: 1.75rem;
+    color: rgb(13, 19, 33);
     font-weight: 800;
     cursor: pointer;
 }
 nav .nav-item button{
-    padding: 17px 24px;
     border-radius: 10px;
+    padding: 17px 24px;
     border: 1px solid rgba(13, 19, 33);
     cursor: pointer;
 }
 nav .nav-item button a{
     text-decoration: none;
     color: rgb(13, 19, 33);
+    opacity: 0.8;
     font-size: 1.25rem;
     font-weight: 600;
-    opacity: 0.8;
 }
 
 /* Nav style ends */
@@ -96,3 +109,56 @@ nav .nav-item button a{
     font-weight: 600;
 }
 /* Banner section styles ends  */
+
+/* Main styles  */
+main{
+    max-width: 1140px;
+    margin: 0 auto!important;
+}
+/* Main styles  */
+
+/* Why Web development and skills styles  */
+.webDevelopment-container{
+    width: 100%;
+    border-radius: 1rem;
+    background-color: rgba(13, 19, 33, 0.02);
+    margin-top: 4.625rem;
+    padding: 5rem 6rem;
+}
+.whyWeb-development{
+    text-align: center;
+    margin-bottom: 3rem;
+}
+.webDevelopment-container .my-skills{
+    display: flex;
+    padding: 3rem;
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+    margin-bottom: 2rem;
+    align-items: center;
+    justify-content: space-between;
+}
+.webDevelopment-container .skill-left{
+    background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+}
+.webDevelopment-container .my-skills button{
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    padding: 0.75rem 1.25rem;
+    margin-top: 2rem;
+    transition: 0.3s ease-in;
+}
+.webDevelopment-container .my-skills button a{
+    font-size: 1.125rem;
+    text-decoration: none;
+    color: rgb(13, 19, 33);
+    font-weight: 600;
+    opacity: 0.9;
+}
+.webDevelopment-container .my-skills button:hover{
+    opacity: 1;
+}
+.webDevelopment-container .skills-content{
+    width: 60%;
+}
+/* Why Web development and skills styles  */
