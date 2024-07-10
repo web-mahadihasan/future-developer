@@ -200,6 +200,8 @@ section{
 .myInspiration-media{
     padding: 2rem;
     height: 550px;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 0.625rem;
 }
 .myInspiration-media .video{
     width: 100%;
